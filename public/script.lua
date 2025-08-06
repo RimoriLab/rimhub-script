@@ -220,7 +220,7 @@ submitBtn.MouseButton1Click:Connect(function()
 end)
 
 -- SCRIPT BAGIAN 2
-local currentKey = "rimhub666"
+local currentKey = "rimhub08"
 _G.ValidateKey = function(userKey)
     return userKey == currentKey
 end
