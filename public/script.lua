@@ -218,3 +218,9 @@ submitBtn.MouseButton1Click:Connect(function()
         warn("Key validation function is missing.")
     end
 end)
+
+-- SCRIPT BAGIAN 2
+local currentKey = "rimhub666"
+_G.ValidateKey = function(userKey)
+    return userKey == currentKey
+end
