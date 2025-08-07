@@ -69,7 +69,7 @@ instruction.TextSize = 14
 instruction.Parent = mainFrame
 
 getKeyBtn.MouseButton1Click:Connect(function()
-    local url = "https://loot-link.com/s?dL8DXHKC"
+    local url = "https://lootdest.org/s?CW7XBl7G"
     if setclipboard then
         setclipboard(url)
         pcall(function()
